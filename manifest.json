@@ -1,0 +1,14 @@
+{
+    "name": "Email Validator",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "This will validate Email Entered",
+    "browser_action": {
+        "default_icon": "s.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://api.flickr.com/"
+    ],
+    "minimum_chrome_version": "23.0.0.0"
+}
